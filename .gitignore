@@ -1,0 +1,32 @@
+# Build products
+bin/
+build/
+*.o
+*.d
+a.out
+
+# Shell runtime state
+.minishell_history
+.minishell_history.tmp
+
+# Python bytecode from the interactive test suite
+__pycache__/
+*.pyc
+
+# Editor and OS cruft
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.sw?
+*~
+
+# Merge and patch leftovers
+*.orig
+*.rej
+*.bak
+
+# Any dotfile ending in .env, whatever it is called
+*.env
+!.env.example
